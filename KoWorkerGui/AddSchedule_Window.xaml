@@ -1,0 +1,23 @@
+﻿<Window x:Class="KoWorkerGui.AddSchedule_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KoWorkerGui"
+        mc:Ignorable="d"
+        Title="AddSchedule_Window" Height="600" Width="600">
+    <Grid>
+        <Button x:Name="SetMonth_Button" Content="Set Måned" HorizontalAlignment="Left" Height="24" Margin="10,30,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button x:Name="SetMonth_Button_Copy" Content="Sæt Måned" HorizontalAlignment="Left" Height="24" Margin="10,30,0,0" VerticalAlignment="Top" Width="64" Click="SetMonth_Button_Copy_Click"/>
+        <Button x:Name="Set_Employees_Button" Content="Vælg medarbejdere" HorizontalAlignment="Left" Height="24" Margin="79,30,0,0" VerticalAlignment="Top" Width="117"/>
+        <Button x:Name="Set_Employees_Button_Copy" Content="Vælg medarbejdere" HorizontalAlignment="Left" Height="24" Margin="79,30,0,0" VerticalAlignment="Top" Width="117" Click="Set_Employees_Button_Copy_Click"/>
+        <Button x:Name="AddShifts_Button" Content="Tilføj Vagter" HorizontalAlignment="Left" Height="24" Margin="201,30,0,0" VerticalAlignment="Top" Width="71" Click="AddShifts_Button_Click"/>
+        <DataGrid x:Name="Schedule_DataGridView" HorizontalAlignment="Left" Height="471" Margin="10,89,0,0" VerticalAlignment="Top" Width="574"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="Update" Content="Up" HorizontalAlignment="Left" Height="25" Margin="74,59,0,0" VerticalAlignment="Top" Width="83" Click="Update_Click"/>
+        <Label x:Name="Month_Label" Content="Måned" HorizontalAlignment="Left" Height="25" Margin="201,59,0,0" VerticalAlignment="Top" Width="94"/>
+        <Label x:Name="Year_Label" Content="År" HorizontalAlignment="Left" Height="25" Margin="312,59,0,0" VerticalAlignment="Top" Width="94"/>
+        <Button x:Name="AddShiftreal_Button" Content="AD" HorizontalAlignment="Left" Height="24" Margin="295,30,0,0" VerticalAlignment="Top" Width="111" Click="AddShiftreal_Button_Click"/>
+
+    </Grid>
+</Window>
